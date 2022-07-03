@@ -198,43 +198,43 @@ function calc()
 	if(calc === 'Kinetic-Energy-Calculator')
     {
         document.getElementById('result').style.display  = '';
-        document.getElementById('result').innerText = n1 * n2 + ' N';
+        document.getElementById('result').innerText = 1.2 * n1 * n2 + ' J';
     }
 
 	if(calc === 'Torque-Calculator')
     {
         document.getElementById('result').style.display  = '';
-        document.getElementById('result').innerText = n1 * n2 + ' N';
+        document.getElementById('result').innerText = n1 * n2 * sin(n3) + ' N/M';
     }
 
 	if(calc === 'Inertia-Calculator')
     {
         document.getElementById('result').style.display  = '';
-        document.getElementById('result').innerText = n1 * n2 + ' N';
+        document.getElementById('result').innerText = n1 / n2 + ' Kg M^2';
     }
 
 	if(calc === 'Density-Calculator')
     {
         document.getElementById('result').style.display  = '';
-        document.getElementById('result').innerText = n1 * n2 + ' N';
+        document.getElementById('result').innerText = n1 / n2 + ' Kg/M^3';
     }
 
 	if(calc === 'Work-Done-Calculator')
     {
         document.getElementById('result').style.display  = '';
-        document.getElementById('result').innerText = n1 * n2 + ' N';
+        document.getElementById('result').innerText = n1 * n2 + ' Kg M^2/S^2';
     }
 
 	if(calc === 'Charge-Calculator')
     {
         document.getElementById('result').style.display  = '';
-        document.getElementById('result').innerText = n1 * n2 + ' N';
+        document.getElementById('result').innerText = n1 * n2 + ' C';
     }
 
 	if(calc === 'Potential-Energy-Calculator')
     {
         document.getElementById('result').style.display  = '';
-        document.getElementById('result').innerText = n1 * n2 + ' N';
+        document.getElementById('result').innerText = n1 * n2 * 9.8 + ' J';
     }
 	
 }
