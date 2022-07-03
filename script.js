@@ -159,6 +159,38 @@ function update() {
         document.getElementById('OutputBox').style.display = '';
         document.getElementById('result').innerText = ''
     }
+
+	if(calc === 'Kinetic-Energy-Calculator') {
+        // document.getElementById('title').innerText = 'Force Calculater';
+        document.getElementById('input1').value = '';
+        document.getElementById('input2').value = '';
+        document.getElementById('input3').value = '';
+        document.getElementById('input4').value = '';
+        document.getElementById('input5').value = '';
+
+        document.getElementById('input1header').innerText = 'Friction Coefficient (μ)';
+        document.getElementById('input2header').innerText = 'Normal Force (N)';
+        document.getElementById('input3header').innerText = '';
+        document.getElementById('input4header').innerText = '';
+        document.getElementById('input5header').innerText = '';
+        
+        document.getElementById('input1header').style.display = '';
+        document.getElementById('input2header').style.display = '';
+        document.getElementById('input3header').style.display = 'none';
+        document.getElementById('input4header').style.display = 'none';
+        document.getElementById('input5header').style.display = 'none';
+
+        document.getElementById('input1').type = 'text';
+        document.getElementById('input2').type = 'text';
+        document.getElementById('input3').type = 'hidden';
+        document.getElementById('input4').type = 'hidden';
+        document.getElementById('input5').type = 'hidden';
+
+        document.getElementById('Calculate').hidden = "";
+
+        document.getElementById('OutputBox').style.display = '';
+        document.getElementById('result').innerText = ''
+    }
 }
 
 function calc()
