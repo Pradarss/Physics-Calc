@@ -168,8 +168,8 @@ function update() {
         document.getElementById('input4').value = '';
         document.getElementById('input5').value = '';
 
-        document.getElementById('input1header').innerText = 'Friction Coefficient (μ)';
-        document.getElementById('input2header').innerText = 'Normal Force (N)';
+        document.getElementById('input1header').innerText = 'Mass (m)';
+        document.getElementById('input2header').innerText = 'Velocity (v)';
         document.getElementById('input3header').innerText = '';
         document.getElementById('input4header').innerText = '';
         document.getElementById('input5header').innerText = '';
@@ -230,7 +230,7 @@ function calc()
 	if(calc === 'Kinetic-Energy-Calculator')
     {
         document.getElementById('result').style.display  = '';
-        document.getElementById('result').innerText = 1.2 * n1 * n2 + ' J';
+        document.getElementById('result').innerText = 1.2 * n1 * n2 * n2 + ' J';
     }
 
 	if(calc === 'Torque-Calculator')
