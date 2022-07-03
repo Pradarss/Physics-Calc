@@ -191,6 +191,198 @@ function update() {
         document.getElementById('OutputBox').style.display = '';
         document.getElementById('result').innerText = ''
     }
+
+	if(calc === 'Torque-Calculator') {
+        // document.getElementById('title').innerText = 'Force Calculater';
+        document.getElementById('input1').value = '';
+        document.getElementById('input2').value = '';
+        document.getElementById('input3').value = '';
+        document.getElementById('input4').value = '';
+        document.getElementById('input5').value = '';
+
+        document.getElementById('input1header').innerText = 'Distance (r)';
+        document.getElementById('input2header').innerText = 'Force (f)';
+        document.getElementById('input3header').innerText = 'Angle (theta)';
+        document.getElementById('input4header').innerText = '';
+        document.getElementById('input5header').innerText = '';
+        
+        document.getElementById('input1header').style.display = '';
+        document.getElementById('input2header').style.display = '';
+        document.getElementById('input3header').style.display = '';
+        document.getElementById('input4header').style.display = 'none';
+        document.getElementById('input5header').style.display = 'none';
+
+        document.getElementById('input1').type = 'text';
+        document.getElementById('input2').type = 'text';
+        document.getElementById('input3').type = 'text';
+        document.getElementById('input4').type = 'hidden';
+        document.getElementById('input5').type = 'hidden';
+
+        document.getElementById('Calculate').hidden = "";
+
+        document.getElementById('OutputBox').style.display = '';
+        document.getElementById('result').innerText = ''
+    }
+
+	if(calc === 'Inertia-Calculator') {
+        // document.getElementById('title').innerText = 'Force Calculater';
+        document.getElementById('input1').value = '';
+        document.getElementById('input2').value = '';
+        document.getElementById('input3').value = '';
+        document.getElementById('input4').value = '';
+        document.getElementById('input5').value = '';
+
+        document.getElementById('input1header').innerText = 'Mass (m)';
+        document.getElementById('input2header').innerText = 'Velocity (v)';
+        document.getElementById('input3header').innerText = '';
+        document.getElementById('input4header').innerText = '';
+        document.getElementById('input5header').innerText = '';
+        
+        document.getElementById('input1header').style.display = '';
+        document.getElementById('input2header').style.display = '';
+        document.getElementById('input3header').style.display = 'none';
+        document.getElementById('input4header').style.display = 'none';
+        document.getElementById('input5header').style.display = 'none';
+
+        document.getElementById('input1').type = 'text';
+        document.getElementById('input2').type = 'text';
+        document.getElementById('input3').type = 'hidden';
+        document.getElementById('input4').type = 'hidden';
+        document.getElementById('input5').type = 'hidden';
+
+        document.getElementById('Calculate').hidden = "";
+
+        document.getElementById('OutputBox').style.display = '';
+        document.getElementById('result').innerText = ''
+    }
+
+	if(calc === 'Density-Calculator') {
+        // document.getElementById('title').innerText = 'Force Calculater';
+        document.getElementById('input1').value = '';
+        document.getElementById('input2').value = '';
+        document.getElementById('input3').value = '';
+        document.getElementById('input4').value = '';
+        document.getElementById('input5').value = '';
+
+        document.getElementById('input1header').innerText = 'Mass (m)';
+        document.getElementById('input2header').innerText = 'Velocity (v)';
+        document.getElementById('input3header').innerText = '';
+        document.getElementById('input4header').innerText = '';
+        document.getElementById('input5header').innerText = '';
+        
+        document.getElementById('input1header').style.display = '';
+        document.getElementById('input2header').style.display = '';
+        document.getElementById('input3header').style.display = 'none';
+        document.getElementById('input4header').style.display = 'none';
+        document.getElementById('input5header').style.display = 'none';
+
+        document.getElementById('input1').type = 'text';
+        document.getElementById('input2').type = 'text';
+        document.getElementById('input3').type = 'hidden';
+        document.getElementById('input4').type = 'hidden';
+        document.getElementById('input5').type = 'hidden';
+
+        document.getElementById('Calculate').hidden = "";
+
+        document.getElementById('OutputBox').style.display = '';
+        document.getElementById('result').innerText = ''
+    }
+
+	if(calc === 'Work-Done-Calculator') {
+        // document.getElementById('title').innerText = 'Force Calculater';
+        document.getElementById('input1').value = '';
+        document.getElementById('input2').value = '';
+        document.getElementById('input3').value = '';
+        document.getElementById('input4').value = '';
+        document.getElementById('input5').value = '';
+
+        document.getElementById('input1header').innerText = 'Mass (m)';
+        document.getElementById('input2header').innerText = 'Velocity (v)';
+        document.getElementById('input3header').innerText = '';
+        document.getElementById('input4header').innerText = '';
+        document.getElementById('input5header').innerText = '';
+        
+        document.getElementById('input1header').style.display = '';
+        document.getElementById('input2header').style.display = '';
+        document.getElementById('input3header').style.display = 'none';
+        document.getElementById('input4header').style.display = 'none';
+        document.getElementById('input5header').style.display = 'none';
+
+        document.getElementById('input1').type = 'text';
+        document.getElementById('input2').type = 'text';
+        document.getElementById('input3').type = 'hidden';
+        document.getElementById('input4').type = 'hidden';
+        document.getElementById('input5').type = 'hidden';
+
+        document.getElementById('Calculate').hidden = "";
+
+        document.getElementById('OutputBox').style.display = '';
+        document.getElementById('result').innerText = ''
+    }
+
+	if(calc === 'Charge-Calculator') {
+        // document.getElementById('title').innerText = 'Force Calculater';
+        document.getElementById('input1').value = '';
+        document.getElementById('input2').value = '';
+        document.getElementById('input3').value = '';
+        document.getElementById('input4').value = '';
+        document.getElementById('input5').value = '';
+
+        document.getElementById('input1header').innerText = 'Mass (m)';
+        document.getElementById('input2header').innerText = 'Velocity (v)';
+        document.getElementById('input3header').innerText = '';
+        document.getElementById('input4header').innerText = '';
+        document.getElementById('input5header').innerText = '';
+        
+        document.getElementById('input1header').style.display = '';
+        document.getElementById('input2header').style.display = '';
+        document.getElementById('input3header').style.display = 'none';
+        document.getElementById('input4header').style.display = 'none';
+        document.getElementById('input5header').style.display = 'none';
+
+        document.getElementById('input1').type = 'text';
+        document.getElementById('input2').type = 'text';
+        document.getElementById('input3').type = 'hidden';
+        document.getElementById('input4').type = 'hidden';
+        document.getElementById('input5').type = 'hidden';
+
+        document.getElementById('Calculate').hidden = "";
+
+        document.getElementById('OutputBox').style.display = '';
+        document.getElementById('result').innerText = ''
+    }
+
+	if(calc === 'Potential-Energy-Calculator') {
+        // document.getElementById('title').innerText = 'Force Calculater';
+        document.getElementById('input1').value = '';
+        document.getElementById('input2').value = '';
+        document.getElementById('input3').value = '';
+        document.getElementById('input4').value = '';
+        document.getElementById('input5').value = '';
+
+        document.getElementById('input1header').innerText = 'Mass (m)';
+        document.getElementById('input2header').innerText = 'Velocity (v)';
+        document.getElementById('input3header').innerText = '';
+        document.getElementById('input4header').innerText = '';
+        document.getElementById('input5header').innerText = '';
+        
+        document.getElementById('input1header').style.display = '';
+        document.getElementById('input2header').style.display = '';
+        document.getElementById('input3header').style.display = 'none';
+        document.getElementById('input4header').style.display = 'none';
+        document.getElementById('input5header').style.display = 'none';
+
+        document.getElementById('input1').type = 'text';
+        document.getElementById('input2').type = 'text';
+        document.getElementById('input3').type = 'hidden';
+        document.getElementById('input4').type = 'hidden';
+        document.getElementById('input5').type = 'hidden';
+
+        document.getElementById('Calculate').hidden = "";
+
+        document.getElementById('OutputBox').style.display = '';
+        document.getElementById('result').innerText = ''
+    }
 }
 
 function calc()
