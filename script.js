@@ -202,7 +202,7 @@ function update() {
 
         document.getElementById('input1header').innerText = 'Distance (r)';
         document.getElementById('input2header').innerText = 'Force (f)';
-        document.getElementById('input3header').innerText = 'Angle (theta)';
+        document.getElementById('input3header').innerText = 'Angle (radians)';
         document.getElementById('input4header').innerText = '';
         document.getElementById('input5header').innerText = '';
         
@@ -232,8 +232,8 @@ function update() {
         document.getElementById('input4').value = '';
         document.getElementById('input5').value = '';
 
-        document.getElementById('input1header').innerText = 'Mass (m)';
-        document.getElementById('input2header').innerText = 'Velocity (v)';
+        document.getElementById('input1header').innerText = 'Angular Momentum (l)';
+        document.getElementById('input2header').innerText = 'Angular Velocity (w)';
         document.getElementById('input3header').innerText = '';
         document.getElementById('input4header').innerText = '';
         document.getElementById('input5header').innerText = '';
@@ -265,7 +265,7 @@ function update() {
         document.getElementById('input5').value = '';
 
         document.getElementById('input1header').innerText = 'Mass (m)';
-        document.getElementById('input2header').innerText = 'Velocity (v)';
+        document.getElementById('input2header').innerText = 'Volume (v)';
         document.getElementById('input3header').innerText = '';
         document.getElementById('input4header').innerText = '';
         document.getElementById('input5header').innerText = '';
@@ -296,8 +296,8 @@ function update() {
         document.getElementById('input4').value = '';
         document.getElementById('input5').value = '';
 
-        document.getElementById('input1header').innerText = 'Mass (m)';
-        document.getElementById('input2header').innerText = 'Velocity (v)';
+        document.getElementById('input1header').innerText = 'Force (f)';
+        document.getElementById('input2header').innerText = 'Displacement (s)';
         document.getElementById('input3header').innerText = '';
         document.getElementById('input4header').innerText = '';
         document.getElementById('input5header').innerText = '';
@@ -328,8 +328,8 @@ function update() {
         document.getElementById('input4').value = '';
         document.getElementById('input5').value = '';
 
-        document.getElementById('input1header').innerText = 'Mass (m)';
-        document.getElementById('input2header').innerText = 'Velocity (v)';
+        document.getElementById('input1header').innerText = 'Current (i)';
+        document.getElementById('input2header').innerText = 'time (t)';
         document.getElementById('input3header').innerText = '';
         document.getElementById('input4header').innerText = '';
         document.getElementById('input5header').innerText = '';
@@ -361,7 +361,7 @@ function update() {
         document.getElementById('input5').value = '';
 
         document.getElementById('input1header').innerText = 'Mass (m)';
-        document.getElementById('input2header').innerText = 'Velocity (v)';
+        document.getElementById('input2header').innerText = 'Height (h)';
         document.getElementById('input3header').innerText = '';
         document.getElementById('input4header').innerText = '';
         document.getElementById('input5header').innerText = '';
@@ -428,7 +428,7 @@ function calc()
 	if(calc === 'Torque-Calculator')
     {
         document.getElementById('result').style.display  = '';
-        document.getElementById('result').innerText = n1 * n2 * sin(n3) + ' N/M';
+        document.getElementById('result').innerText = n1 * n2 * math.sin(n3) + ' N/M';
     }
 
 	if(calc === 'Inertia-Calculator')
