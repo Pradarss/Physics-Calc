@@ -194,7 +194,51 @@ function calc()
         document.getElementById('result').style.display  = '';
         document.getElementById('result').innerText = n1 * n2 + ' N';
     }
+
+	if(calc === 'Kinetic-Energy-Calculator')
+    {
+        document.getElementById('result').style.display  = '';
+        document.getElementById('result').innerText = n1 * n2 + ' N';
+    }
+
+	if(calc === 'Torque-Calculator')
+    {
+        document.getElementById('result').style.display  = '';
+        document.getElementById('result').innerText = n1 * n2 + ' N';
+    }
+
+	if(calc === 'Inertia-Calculator')
+    {
+        document.getElementById('result').style.display  = '';
+        document.getElementById('result').innerText = n1 * n2 + ' N';
+    }
+
+	if(calc === 'Density-Calculator')
+    {
+        document.getElementById('result').style.display  = '';
+        document.getElementById('result').innerText = n1 * n2 + ' N';
+    }
+
+	if(calc === 'Work-Done-Calculator')
+    {
+        document.getElementById('result').style.display  = '';
+        document.getElementById('result').innerText = n1 * n2 + ' N';
+    }
+
+	if(calc === 'Charge-Calculator')
+    {
+        document.getElementById('result').style.display  = '';
+        document.getElementById('result').innerText = n1 * n2 + ' N';
+    }
+
+	if(calc === 'Potential-Energy-Calculator')
+    {
+        document.getElementById('result').style.display  = '';
+        document.getElementById('result').innerText = n1 * n2 + ' N';
+    }
+	
 }
+
 
 // Pixel Dust by @neave
 
