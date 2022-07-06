@@ -16,7 +16,8 @@ function update() {
         document.getElementById('input4header').innerText = '';
         document.getElementById('input5header').innerText = '';
 
-        document.getElementById('input1header').style.display = 'none';
+        document.getElementById('def').style.display = 'none';
+		document.getElementById('input1header').style.display = 'none';
         document.getElementById('input2header').style.display = 'none';
         document.getElementById('input3header').style.display = 'none';
         document.getElementById('input4header').style.display = 'none';
