@@ -103,6 +103,23 @@ body {
     font-weight: bolder;
 }
 
+.def {
+    cursor: default;
+    border: 1px solid white;
+    outline: none;
+    background-color: rgba(255, 255, 255, .75);
+    text-align: center;
+    padding: 30px 0;
+    border-radius: 12px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    border: 2px solid blue;
+    margin-left: 20px;
+    display: inline-block;
+    height: 366px;
+    width: 40vw;
+}
+
 .calculators-grid > .input1 {
     cursor: default;
     font-size: 2rem;
