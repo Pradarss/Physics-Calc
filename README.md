@@ -1,5 +1,5 @@
 # Physics Calculator
-This is a Physics calculator built using HTML, Javascript, CSS deployed at https://guydmello.github.io/Physics-Calculator/
+This is a Physics calculator built using HTML, Javascript, CSS deployed at https://Pradarss.github.io/Physics-Calculator/
 
 ## Inspiration
 As a student, I always wanted a way of having formulas that were never readily available to me and that required me to calculate manually.
