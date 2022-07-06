@@ -46,7 +46,8 @@ function update() {
         document.getElementById('input4header').innerText = '';
         document.getElementById('input5header').innerText = '';
 
-        document.getElementById('input1header').style.display = '';
+        document.getElementById('def').style.display = '';
+		document.getElementById('input1header').style.display = '';
         document.getElementById('input2header').style.display = '';
         document.getElementById('input3header').style.display = '';
         document.getElementById('input4header').style.display = 'none';
@@ -80,7 +81,8 @@ function update() {
         document.getElementById('input4header').innerText = '';
         document.getElementById('input5header').innerText = '';
         
-        document.getElementById('input1header').style.display = '';
+        document.getElementById('def').style.display = '';
+		document.getElementById('input1header').style.display = '';
         document.getElementById('input2header').style.display = '';
         document.getElementById('input3header').style.display = 'none';
         document.getElementById('input4header').style.display = 'none';
@@ -111,6 +113,7 @@ function update() {
         document.getElementById('input4header').innerText = '';
         document.getElementById('input5header').innerText = '';
         
+		document.getElementById('def').style.display = '';
         document.getElementById('input1header').style.display = '';
         document.getElementById('input2header').style.display = '';
         document.getElementById('input3header').style.display = '';
@@ -142,7 +145,8 @@ function update() {
         document.getElementById('input4header').innerText = '';
         document.getElementById('input5header').innerText = '';
         
-        document.getElementById('input1header').style.display = '';
+        document.getElementById('def').style.display = '';
+		document.getElementById('input1header').style.display = '';
         document.getElementById('input2header').style.display = '';
         document.getElementById('input3header').style.display = 'none';
         document.getElementById('input4header').style.display = 'none';
@@ -174,7 +178,8 @@ function update() {
         document.getElementById('input4header').innerText = '';
         document.getElementById('input5header').innerText = '';
         
-        document.getElementById('input1header').style.display = '';
+        document.getElementById('def').style.display = '';
+		document.getElementById('input1header').style.display = '';
         document.getElementById('input2header').style.display = '';
         document.getElementById('input3header').style.display = 'none';
         document.getElementById('input4header').style.display = 'none';
@@ -206,7 +211,8 @@ function update() {
         document.getElementById('input4header').innerText = '';
         document.getElementById('input5header').innerText = '';
         
-        document.getElementById('input1header').style.display = '';
+        document.getElementById('def').style.display = '';
+		document.getElementById('input1header').style.display = '';
         document.getElementById('input2header').style.display = '';
         document.getElementById('input3header').style.display = '';
         document.getElementById('input4header').style.display = 'none';
@@ -238,7 +244,8 @@ function update() {
         document.getElementById('input4header').innerText = '';
         document.getElementById('input5header').innerText = '';
         
-        document.getElementById('input1header').style.display = '';
+        document.getElementById('def').style.display = '';
+		document.getElementById('input1header').style.display = '';
         document.getElementById('input2header').style.display = '';
         document.getElementById('input3header').style.display = 'none';
         document.getElementById('input4header').style.display = 'none';
@@ -270,7 +277,8 @@ function update() {
         document.getElementById('input4header').innerText = '';
         document.getElementById('input5header').innerText = '';
         
-        document.getElementById('input1header').style.display = '';
+        document.getElementById('def').style.display = '';
+		document.getElementById('input1header').style.display = '';
         document.getElementById('input2header').style.display = '';
         document.getElementById('input3header').style.display = 'none';
         document.getElementById('input4header').style.display = 'none';
@@ -302,7 +310,8 @@ function update() {
         document.getElementById('input4header').innerText = '';
         document.getElementById('input5header').innerText = '';
         
-        document.getElementById('input1header').style.display = '';
+        document.getElementById('def').style.display = '';
+		document.getElementById('input1header').style.display = '';
         document.getElementById('input2header').style.display = '';
         document.getElementById('input3header').style.display = 'none';
         document.getElementById('input4header').style.display = 'none';
@@ -334,7 +343,8 @@ function update() {
         document.getElementById('input4header').innerText = '';
         document.getElementById('input5header').innerText = '';
         
-        document.getElementById('input1header').style.display = '';
+        document.getElementById('def').style.display = '';
+		document.getElementById('input1header').style.display = '';
         document.getElementById('input2header').style.display = '';
         document.getElementById('input3header').style.display = 'none';
         document.getElementById('input4header').style.display = 'none';
@@ -366,7 +376,8 @@ function update() {
         document.getElementById('input4header').innerText = '';
         document.getElementById('input5header').innerText = '';
         
-        document.getElementById('input1header').style.display = '';
+        document.getElementById('def').style.display = '';
+		document.getElementById('input1header').style.display = '';
         document.getElementById('input2header').style.display = '';
         document.getElementById('input3header').style.display = 'none';
         document.getElementById('input4header').style.display = 'none';
