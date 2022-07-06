@@ -118,6 +118,8 @@ body {
     display: inline-block;
     height: 366px;
     width: 40vw;
+    text-align: justify;
+    padding: 10px;
 }
 
 .calculators-grid{

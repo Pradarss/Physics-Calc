@@ -35,7 +35,7 @@ function update() {
     }
     if(calc === 'Gravitational-Force-Calculator') {
         // document.getElementById('title').innerText = 'Gravitational Force Calculator'
-        document.getElementById('input1').value = '';
+		document.getElementById('input1').value = '';
         document.getElementById('input2').value = '';
         document.getElementById('input3').value = '';
         document.getElementById('input4').value = '';
@@ -65,7 +65,7 @@ function update() {
         document.getElementById('OutputBox').style.display = '';
         document.getElementById('result').innerText = ''
 
-
+		document.getElementById('def').innerHTML = 'The gravitational force is that which attracts any two objects with mass. We call this force attractive because it always tries to pull the masses together, but it never pushes them apart. In fact, every object, including we (a human body), is pulling on every other object in this entire universe!';
 
     }
     if(calc === 'Force-Calculator') {
@@ -99,6 +99,8 @@ function update() {
 
         document.getElementById('OutputBox').style.display = '';
         document.getElementById('result').innerText = ''
+
+		document.getElementById('def').innerHTML = 'strength or energy as an attribute of physical action or movement';
     }
     if(calc === 'Acceleration-Calculator') {
         // document.getElementById('title').innerText = 'Force Calculater';
@@ -131,6 +133,8 @@ function update() {
 
         document.getElementById('OutputBox').style.display = '';
         document.getElementById('result').innerText = ''
+
+		document.getElementById('def').innerHTML = 'the rate of change of velocity per unit of time.';
     }
     if(calc === 'Friction-Calculator') {
         // document.getElementById('title').innerText = 'Force Calculater';
@@ -163,6 +167,8 @@ function update() {
 
         document.getElementById('OutputBox').style.display = '';
         document.getElementById('result').innerText = ''
+
+		document.getElementById('def').innerHTML = 'the resistance that one surface or object encounters when moving over another.';
     }
 
 	if(calc === 'Kinetic-Energy-Calculator') {
@@ -196,6 +202,8 @@ function update() {
 
         document.getElementById('OutputBox').style.display = '';
         document.getElementById('result').innerText = ''
+
+		document.getElementById('def').innerHTML = 'It relating to the motions of objects and the forces associated with them kinetic energy.';
     }
 
 	if(calc === 'Torque-Calculator') {
@@ -229,6 +237,8 @@ function update() {
 
         document.getElementById('OutputBox').style.display = '';
         document.getElementById('result').innerText = ''
+
+		document.getElementById('def').innerHTML = 'A  force that produces or tends to produce rotation or torsion; also : a measure of the effectiveness of such a force that consists of the product of the force and the perpendicular distance from the line of action of the force to the axis of rotation.';
     }
 
 	if(calc === 'Inertia-Calculator') {
@@ -262,6 +272,8 @@ function update() {
 
         document.getElementById('OutputBox').style.display = '';
         document.getElementById('result').innerText = ''
+
+		document.getElementById('def').innerHTML = 'A  property of matter by which it continues in its existing state of rest or uniform motion in a straight line, unless that state is changed by an external force.';
     }
 
 	if(calc === 'Density-Calculator') {
@@ -295,6 +307,8 @@ function update() {
 
         document.getElementById('OutputBox').style.display = '';
         document.getElementById('result').innerText = ''
+
+		document.getElementById('def').innerHTML = 'the quantity of mass per unit volume of a substance.';
     }
 
 	if(calc === 'Work-Done-Calculator') {
@@ -328,6 +342,8 @@ function update() {
 
         document.getElementById('OutputBox').style.display = '';
         document.getElementById('result').innerText = ''
+
+		document.getElementById('def').innerHTML = 'It is done only when a constant force applied on an object cause the object to move in the same direction as the force applied.\nWork is the product of force and displacement. In physics, a force is said to do work if, when acting, there is a movement of the point of application in the direction of the force.';
     }
 
 	if(calc === 'Charge-Calculator') {
@@ -361,6 +377,8 @@ function update() {
 
         document.getElementById('OutputBox').style.display = '';
         document.getElementById('result').innerText = ''
+
+		document.getElementById('def').innerHTML = 'Electric charge is the basic physical property of matter that causes it to experience a force when kept in an electric or magnetic field. An electric charge is associated with an electric field and the moving electric charge generates a magnetic field.';
     }
 
 	if(calc === 'Potential-Energy-Calculator') {
@@ -394,6 +412,8 @@ function update() {
 
         document.getElementById('OutputBox').style.display = '';
         document.getElementById('result').innerText = ''
+
+		document.getElementById('def').innerHTML = 'Potential generally refers to a currently unrealized ability. The term is used in a wide variety of fields, from physics to the social sciences to indicate things that are in a state where they are able to change in ways ranging from the simple release of energy by objects to the realization of abilities in people.';
     }
 }
 
