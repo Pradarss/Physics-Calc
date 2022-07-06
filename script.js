@@ -65,7 +65,7 @@ function update() {
         document.getElementById('OutputBox').style.display = '';
         document.getElementById('result').innerText = ''
 
-		document.getElementById('def').innerHTML = 'The gravitational force is that which attracts any two objects with mass. We call this force attractive because it always tries to pull the masses together, but it never pushes them apart. In fact, every object, including we (a human body), is pulling on every other object in this entire universe!';
+		document.getElementById('def').innerHTML = 'The gravitational force is that which attracts any two objects with mass. We call this force attractive because it always tries to pull the masses together, but it never pushes them apart. In fact, every object, including we (a human body), is pulling on every other object in this entire universe.';
 
     }
     if(calc === 'Force-Calculator') {
@@ -100,7 +100,7 @@ function update() {
         document.getElementById('OutputBox').style.display = '';
         document.getElementById('result').innerText = ''
 
-		document.getElementById('def').innerHTML = 'strength or energy as an attribute of physical action or movement';
+		document.getElementById('def').innerHTML = 'Force is a push or pull on an object that produces acceleration in the body on which it acts. S.I. unit of force is Newton.';
     }
     if(calc === 'Acceleration-Calculator') {
         // document.getElementById('title').innerText = 'Force Calculater';
@@ -134,7 +134,7 @@ function update() {
         document.getElementById('OutputBox').style.display = '';
         document.getElementById('result').innerText = ''
 
-		document.getElementById('def').innerHTML = 'the rate of change of velocity per unit of time.';
+		document.getElementById('def').innerHTML = 'Acceleration is defined as the rate of change of velocity with respect to time. Acceleration is a vector quantity as it has both magnitude and direction.';
     }
     if(calc === 'Friction-Calculator') {
         // document.getElementById('title').innerText = 'Force Calculater';
@@ -168,7 +168,7 @@ function update() {
         document.getElementById('OutputBox').style.display = '';
         document.getElementById('result').innerText = ''
 
-		document.getElementById('def').innerHTML = 'the resistance that one surface or object encounters when moving over another.';
+		document.getElementById('def').innerHTML = 'Friction is a type of relative force that acts as a resistance between two bodies that are in contact with each other. In other words when two bodies are in contact with each other there exists a force which opposes their relative motion.';
     }
 
 	if(calc === 'Kinetic-Energy-Calculator') {
@@ -203,7 +203,7 @@ function update() {
         document.getElementById('OutputBox').style.display = '';
         document.getElementById('result').innerText = ''
 
-		document.getElementById('def').innerHTML = 'It relating to the motions of objects and the forces associated with them kinetic energy.';
+		document.getElementById('def').innerHTML = 'Kinetic energy is the energy associated with the movement of objects. The kinetic energy of an object depends on both its mass and velocity, with its velocity playing a much greater role. When an object is applied net force, that object gains speed and eventually, gains kinetic energy.';
     }
 
 	if(calc === 'Torque-Calculator') {
@@ -308,7 +308,7 @@ function update() {
         document.getElementById('OutputBox').style.display = '';
         document.getElementById('result').innerText = ''
 
-		document.getElementById('def').innerHTML = 'the quantity of mass per unit volume of a substance.';
+		document.getElementById('def').innerHTML = 'Density is the measurement of how tightly a material is packed together. It is defined as the mass per unit volume.';
     }
 
 	if(calc === 'Work-Done-Calculator') {
