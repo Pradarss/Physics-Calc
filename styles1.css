@@ -89,6 +89,10 @@ body {
   text-decoration: none;
 }
 
+.get{
+  text-decoration: none;
+}
+
 .achievements {
   display: flex;
   justify-content: space-around;
