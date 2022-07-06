@@ -120,6 +120,16 @@ body {
     width: 40vw;
 }
 
+.calculators-grid{
+    margin-left: 430px;
+    margin-bottom: 70px;
+    width: 220px;
+    float: right;
+    justify-content: right;
+    margin-right: 80px;
+    margin-top: 10px;
+}
+
 .calculators-grid > .input1 {
     cursor: default;
     font-size: 2rem;
