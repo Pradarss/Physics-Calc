@@ -76,6 +76,7 @@ body {
   margin: 20px 0;
   text-align: justify;
   padding: 0px 10px;
+  text-transform: initial;
 }
 
 .intro button {
