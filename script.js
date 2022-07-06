@@ -413,7 +413,7 @@ function update() {
         document.getElementById('OutputBox').style.display = '';
         document.getElementById('result').innerText = ''
 
-		document.getElementById('def').innerHTML = 'Potential generally refers to a currently unrealized ability. The term is used in a wide variety of fields, from physics to the social sciences to indicate things that are in a state where they are able to change in ways ranging from the simple release of energy by objects to the realization of abilities in people.';
+		document.getElementById('def').innerHTML = 'potential energy, stored energy that depends upon the relative position of various parts of a system. A spring has more potential energy when it is compressed or stretched. A steel ball has more potential energy raised above the ground than it has after falling to Earth.';
     }
 }
 
