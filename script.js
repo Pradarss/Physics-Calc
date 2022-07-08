@@ -66,6 +66,13 @@ function update() {
         document.getElementById('result').innerText = ''
 
 		document.getElementById('def').innerHTML = 'The gravitational force is that which attracts any two objects with mass. We call this force attractive because it always tries to pull the masses together, but it never pushes them apart. In fact, every object, including we (a human body), is pulling on every other object in this entire universe.';
+        
+        var elem = document.createElement("img");
+        elem.setAttribute("src", "bgpaper.jpg");
+        elem.setAttribute("height", "768");
+        elem.setAttribute("width", "1024");
+        elem.setAttribute("alt", "Flower");
+        document.getElementById("formula").appendChild("elem");
 
     }
     if(calc === 'Force-Calculator') {
@@ -494,6 +501,5 @@ function calc()
     }
 	
 }
-
 
 
