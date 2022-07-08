@@ -286,7 +286,7 @@ output :hover{
 
 .calculators-grid > .calculate:hover {
     cursor: pointer;
-    font-size: 2rem;
+    font-size: 25px;
     border: 1px solid white;
     outline: none;
     background-color: rgba(255, 255, 255, .9);
