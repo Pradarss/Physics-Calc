@@ -351,7 +351,7 @@ output :hover{
 }
 
 .output .result {
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 1.4rem;
 }
 
@@ -379,8 +379,8 @@ output :hover{
   .theme-construction {
     --radius: 0;
     --baseFg: white;
-    --baseBg: black;
-    --accentFg: black;
+    --baseBg: rgb(255, 255, 255);
+    --accentFg: rgb(255, 255, 255);
     --accentBg: orange;
   }
   
