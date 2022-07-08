@@ -148,6 +148,8 @@ body {
     margin-bottom: 5px;
     margin-top: 1px;
     border: 2px solid blue;
+    margin-left: 80px;
+    font-size: 20px;
 }
 
 .calculators-grid > .input2 {
@@ -165,6 +167,8 @@ body {
     border-radius: 12px;
     margin-bottom: 5px;
     border: 2px solid blue;
+    margin-left: 80px;
+    font-size: 20px;
 }
 
 .calculators-grid > .input3 {
@@ -182,6 +186,8 @@ body {
     border: 2px solid blue;
     border-radius: 12px;
     margin-bottom: 5px;
+    margin-left: 80px;
+    font-size: 20px;
 }
 
 .calculators-grid > .input4 {
@@ -274,6 +280,8 @@ output :hover{
     background-color: rgba(255, 255, 255, .75);
     grid-column: span 5;
     border-radius: 50px;
+    margin-left: 80px;
+    font-size: 20px;
 }
 
 .calculators-grid > .calculate:hover {
@@ -286,7 +294,7 @@ output :hover{
 
 .output .result {
     color: white;
-    font-size: 2.5rem;
+    font-size: 1.4rem;
 }
 
 /* --radius: 2px;
