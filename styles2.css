@@ -167,6 +167,7 @@ body {
     margin-right: 80px;
     margin-top: 10px;
     color: #c9c9c9;
+    backdrop-filter: blur( 6.5px );
 }
 
 .calculators-grid > .input1 {
@@ -376,6 +377,7 @@ output :hover{
 .output .result {
     color: #c9c9c9;
     font-size: 1.4rem;
+    backdrop-filter: blur( 6.5px );
 }
 
 /* --radius: 2px;
