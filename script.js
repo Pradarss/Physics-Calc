@@ -111,7 +111,7 @@ function update() {
         document.getElementById('input5').value = '';
 
         document.getElementById('input1header').innerText = 'Initial Speed (m/s)';
-        document.getElementById('input2header').innerText = 'Final Speed (m/s)';
+        document.getElementById('input2header').innerText = 'Final Speed';
         document.getElementById('input3header').innerText = 'Time (s)';
         document.getElementById('input4header').innerText = '';
         document.getElementById('input5header').innerText = '';
@@ -250,7 +250,7 @@ function update() {
         document.getElementById('input5').value = '';
 
         document.getElementById('input1header').innerText = 'Angular Momentum (l)';
-        document.getElementById('input2header').innerText = 'Angular Velocity (w)';
+        document.getElementById('input2header').innerText = 'Angular Velocity';
         document.getElementById('input3header').innerText = '';
         document.getElementById('input4header').innerText = '';
         document.getElementById('input5header').innerText = '';
