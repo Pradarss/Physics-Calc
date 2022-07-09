@@ -84,6 +84,7 @@ body {
   text-transform: uppercase;
   margin: 0;
   text-shadow: 5px 5px 5px black;
+  margin-bottom: 15px;
 }
 
 .intro p {
