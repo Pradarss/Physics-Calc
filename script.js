@@ -219,7 +219,7 @@ function update() {
 
 		document.getElementById('def').innerHTML = 'Kinetic energy is the energy associated with the movement of objects. The kinetic energy of an object depends on both its mass and velocity, with its velocity playing a much greater role. When an object is applied net force, that object gains speed and eventually, gains kinetic energy.';
 
-        document.getElementById('formula').innerHTML = '<img class="XqHOTb IGEbUc" alt="f = \mu N" src="https://www.gstatic.com/education/formulas2/443397389/en/friction_force.svg" role="img" data-atf="0" data-frt="0" style="margin-top: -55px;margin-left: 20px">';
+        document.getElementById('formula').innerHTML = '<img class="XqHOTb IGEbUc" alt="f = \mu N" src="https://cdn.discordapp.com/attachments/946258944534401085/995288463572226121/Screenshot-2020-09-30-at-21.34.18-removebg-preview.png" role="img" data-atf="0" data-frt="0" style="margin-top: -20px;margin-left: -20px;height: 100px;">';
     }
 
 	if(calc === 'Torque-Calculator') {
@@ -409,7 +409,7 @@ function update() {
 
 		document.getElementById('def').innerHTML = 'Electric charge is the basic physical property of matter that causes it to experience a force when kept in an electric or magnetic field. An electric charge is associated with an electric field and the moving electric charge generates a magnetic field.';
 
-        document.getElementById('formula').innerHTML = '<img class="XqHOTb IGEbUc" alt="W=Fs" src="https://www.gstatic.com/education/formulas2/443397389/en/work.svg" role="img" data-atf="0" data-frt="0" style="margin-top: -55px;margin-left: 20px">';
+        document.getElementById('formula').innerHTML = '<img class="XqHOTb IGEbUc" alt="W=Fs" src="https://www.gstatic.com/education/formulas2/443397389/en/electric_charge.svg" role="img" data-atf="0" data-frt="0" style="margin-top: -30px;margin-left: -15px">';
     }
 
 	if(calc === 'Potential-Energy-Calculator') {
