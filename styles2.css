@@ -24,7 +24,7 @@ body {
     overflow-x: hidden;
     font-weight: bold;
     background: linear-gradient(132deg, #FC415A, #591BC5, #212335);
-    /* background-size: 400% 400%; */
+    background-size: 400% 400%;
     animation: Gradient 15s ease infinite;
     position: relative;
     height: 100vh;
@@ -149,6 +149,7 @@ body {
     -webkit-backdrop-filter: blur( 6.5px );
     border-radius: 10px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
+    color: #c9c9c9;
 }
 
 .formula {
@@ -165,6 +166,7 @@ body {
     justify-content: right;
     margin-right: 80px;
     margin-top: 10px;
+    color: #c9c9c9;
 }
 
 .calculators-grid > .input1 {
@@ -191,6 +193,7 @@ body {
     -webkit-backdrop-filter: blur( 6.5px );
     border-radius: 10px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
+    color: #c9c9c9;
     }
 
 .calculators-grid > .input2 {
@@ -216,6 +219,7 @@ body {
     -webkit-backdrop-filter: blur( 6.5px );
     border-radius: 10px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
+    color: #c9c9c9;
 }
 
 .calculators-grid > .input3 {
@@ -241,6 +245,7 @@ body {
     -webkit-backdrop-filter: blur( 6.5px );
     border-radius: 10px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
+    color: #c9c9c9;
 }
 
 .calculators-grid > .input4 {
@@ -296,6 +301,7 @@ body {
     -webkit-backdrop-filter: blur( 6.5px );
     border-radius: 10px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
+    color: #c9c9c9;
 }
 
 .calculators-grid > input:hover {
@@ -324,6 +330,7 @@ output :hover{
     -webkit-backdrop-filter: blur( 6.5px );
     border-radius: 10px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
+    color: #c9c9c9;
 }
 
 /* .calculators-grid > .calculate > button {
@@ -354,6 +361,7 @@ output :hover{
     -webkit-backdrop-filter: blur( 6.5px );
     /* border-radius: 10px; */
     border: 1px solid rgba( 255, 255, 255, 0.18 );
+    color: #c9c9c9;
 }
 
 .calculators-grid > .calculate:hover {
@@ -366,7 +374,7 @@ output :hover{
 }
 
 .output .result {
-    color: rgb(0, 0, 0);
+    color: #c9c9c9;
     font-size: 1.4rem;
 }
 
@@ -456,3 +464,110 @@ output :hover{
     border-color: var(--accentFg);
     background-color: var(--accentFg);
   } */
+
+  @keyframes Gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  @keyframes cube {
+    from {
+      transform: scale(0) rotate(0deg) translate(-50%, -50%);
+      opacity: 1;
+    }
+    to {
+      transform: scale(20) rotate(960deg) translate(-50%, -50%);
+      opacity: 0;
+    }
+  }
+  
+  .cube {
+    position: absolute;
+    top: 80vh;
+    left: 45vw;
+    width: 10px;
+    height: 10px;
+    border: solid 1px #9f9cad;
+    transform-origin: top left;
+    transform: scale(0) rotate(0deg) translate(-50%, -50%);
+    animation: cube 12s ease-in forwards infinite;
+  }
+  .cube:nth-child(2n) {
+    border-color: rgb(169, 154, 154) ;
+  }
+  .cube:nth-child(2) {
+    animation-delay: 2s;
+    left: 25vw;
+    top: 40vh;
+    pointer-events: none;
+  }
+  .cube:nth-child(3) {
+    animation-delay: 4s;
+    left: 75vw;
+    top: 50vh;
+    pointer-events: none;
+  }
+  .cube:nth-child(4) {
+    animation-delay: 6s;
+    left: 90vw;
+    top: 10vh;
+    pointer-events: none;
+  }
+  .cube:nth-child(5) {
+    animation-delay: 8s;
+    left: 10vw;
+    top: 85vh;
+    pointer-events: none;
+  }
+  .cube:nth-child(6) {
+    animation-delay: 10s;
+    left: 50vw;
+    top: 10vh;
+    pointer-events: none;
+  }
+
+
+/* CSS */
+/* .button-63 {
+  align-items: center;
+  background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  display: flex;
+  font-family: Phantomsans, sans-serif;
+  font-size: 20px;
+  justify-content: center;
+  line-height: 1em;
+  max-width: 100%;
+  min-width: 140px;
+  padding: 19px 24px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.button-63:active,
+.button-63:hover {
+  outline: 0;
+}
+
+@media (min-width: 768px) {
+  .button-63 {
+    font-size: 24px;
+    min-width: 196px;
+  }
+} */
+  
