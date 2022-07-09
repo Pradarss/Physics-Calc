@@ -331,6 +331,7 @@ output :hover{
     border-radius: 10px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
     color: #c9c9c9;
+    width: 180px;
 }
 
 /* .calculators-grid > .calculate > button {
@@ -376,7 +377,7 @@ output :hover{
 .output .result {
     color: #c9c9c9;
     font-size: 1.4rem;
-    backdrop-filter: blur( 6.5px );
+    width: 130px;
 }
 
 /* --radius: 2px;

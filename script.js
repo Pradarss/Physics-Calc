@@ -111,7 +111,7 @@ function update() {
         document.getElementById('input5').value = '';
 
         document.getElementById('input1header').innerText = 'Initial Speed (m/s)';
-        document.getElementById('input2header').innerText = 'Final Speed';
+        document.getElementById('input2header').innerText = 'Final Speed (m/s)';
         document.getElementById('input3header').innerText = 'Time (s)';
         document.getElementById('input4header').innerText = '';
         document.getElementById('input5header').innerText = '';
@@ -442,7 +442,7 @@ function calc()
     if(calc === 'Acceleration-Calculator')
     {
         document.getElementById('result').style.display  = '';
-        document.getElementById('result').innerText = (n2 - n1) / n3 + ' m/s^2';
+        document.getElementById('result').innerText = (n2 - n1) / n3 + ' m/s²';
     }
     
     if(calc === 'Friction-Calculator')
@@ -466,19 +466,19 @@ function calc()
 	if(calc === 'Inertia-Calculator')
     {
         document.getElementById('result').style.display  = '';
-        document.getElementById('result').innerText = n1 / n2 + ' Kg M^2';
+        document.getElementById('result').innerText = n1 / n2 + ' Kg M²';
     }
 
 	if(calc === 'Density-Calculator')
     {
         document.getElementById('result').style.display  = '';
-        document.getElementById('result').innerText = n1 / n2 + ' Kg/M^3';
+        document.getElementById('result').innerText = n1 / n2 + ' Kg/m³';
     }
 
 	if(calc === 'Work-Done-Calculator')
     {
         document.getElementById('result').style.display  = '';
-        document.getElementById('result').innerText = n1 * n2 + ' Kg M^2/S^2';
+        document.getElementById('result').innerText = n1 * n2 + ' Kg M²/S²';
     }
 
 	if(calc === 'Charge-Calculator')
