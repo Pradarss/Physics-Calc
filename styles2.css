@@ -35,6 +35,10 @@ body {
     box-sizing: border-box;
 }
 
+.head-container {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
 .calculators-grid {
     display: grid;
     justify-content: center;
@@ -117,13 +121,14 @@ body {
     margin-right: auto;
     text-align: center;
     font-size: 3rem;
-    color: rgb(165, 2, 2);
+    color: rgb(255, 255, 255);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: bolder;
     /* border: 5px solid darkseagreen;
     width: 600px;
     padding: 10px;
     margin-bottom: 10px; */
+    text-shadow: 5px 5px 5px black;
 }
 
 .def {
@@ -150,12 +155,14 @@ body {
     border-radius: 10px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
     color: #c9c9c9;
+    font-size: 23px;
 }
 
 .formula {
-    background-color: white;
-    width: 20px;
-    height: 20px;
+    position: absolute;
+    margin-top: 255px;
+    display: inline-flex;
+    margin-left: -340px;
 }
 
 .calculators-grid{
@@ -502,7 +509,7 @@ output :hover{
     animation: cube 12s ease-in forwards infinite;
   }
   .cube:nth-child(2n) {
-    border-color: rgb(169, 154, 154) ;
+    border-color: rgb(255, 255, 255) ;
   }
   .cube:nth-child(2) {
     animation-delay: 2s;

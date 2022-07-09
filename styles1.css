@@ -83,6 +83,7 @@ body {
   font-weight: bold;
   text-transform: uppercase;
   margin: 0;
+  text-shadow: 5px 5px 5px black;
 }
 
 .intro p {
@@ -286,7 +287,7 @@ body {
   animation: cube 12s ease-in forwards infinite;
 }
 .cube:nth-child(2n) {
-  border-color: rgb(169, 154, 154) ;
+  border-color: rgb(255, 255, 255) ;
 }
 .cube:nth-child(2) {
   animation-delay: 2s;

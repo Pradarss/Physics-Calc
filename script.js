@@ -48,6 +48,7 @@ function update() {
         document.getElementById('input5header').innerText = '';
 
         document.getElementById('def').style.display = '';
+        document.getElementById('formula').style.display = '';
 		document.getElementById('input1header').style.display = '';
         document.getElementById('input2header').style.display = '';
         document.getElementById('input3header').style.display = '';
@@ -67,6 +68,8 @@ function update() {
 
 		document.getElementById('def').innerHTML = 'The gravitational force is that which attracts any two objects with mass. We call this force attractive because it always tries to pull the masses together, but it never pushes them apart. In fact, every object, including we (a human body), is pulling on every other object in this entire universe.';
 
+        document.getElementById('formula').innerHTML = '<img class="XqHOTb IGEbUc" alt="F=G{\frac{m_1m_2}{r^2}}" src="https://www.gstatic.com/education/formulas2/443397389/en/newton_s_law_of_universal_gravitation.svg" role="img" data-atf="1" data-frt="0" style="margin-left: -20px;">';
+
     }
     if(calc === 'Force-Calculator') {
         // document.getElementById('title').innerText = 'Force Calculater';
@@ -83,6 +86,7 @@ function update() {
         document.getElementById('input5header').innerText = '';
         
         document.getElementById('def').style.display = '';
+        document.getElementById('formula').style.display = '';
 		document.getElementById('input1header').style.display = '';
         document.getElementById('input2header').style.display = '';
         document.getElementById('input3header').style.display = 'none';
@@ -101,6 +105,9 @@ function update() {
         document.getElementById('result').innerText = ''
 
 		document.getElementById('def').innerHTML = 'Force is a push or pull on an object that produces acceleration in the body on which it acts. S.I. unit of force is Newton.';
+
+        document.getElementById('formula').innerHTML = '<img class="XqHOTb IGEbUc" alt="F = m * a" src="https://www.gstatic.com/education/formulas2/443397389/en/newtons_second_law.svg" role="img" data-atf="0" data-frt="0" style="margin-top: -50px">';
+
     }
     if(calc === 'Acceleration-Calculator') {
         // document.getElementById('title').innerText = 'Force Calculater';
@@ -117,6 +124,7 @@ function update() {
         document.getElementById('input5header').innerText = '';
         
 		document.getElementById('def').style.display = '';
+        document.getElementById('formula').style.display = '';
         document.getElementById('input1header').style.display = '';
         document.getElementById('input2header').style.display = '';
         document.getElementById('input3header').style.display = '';
@@ -135,6 +143,8 @@ function update() {
         document.getElementById('result').innerText = ''
 
 		document.getElementById('def').innerHTML = 'Acceleration is defined as the rate of change of velocity with respect to time. Acceleration is a vector quantity as it has both magnitude and direction.';
+
+        document.getElementById('formula').innerHTML = '<img class="XqHOTb IGEbUc" alt="\overline{a} = \frac{v - v_0}{t} = \frac{\Delta v}{\Delta t}" src="https://www.gstatic.com/education/formulas2/443397389/en/acceleration.svg" role="img" data-atf="0" data-frt="0" style="margin-top: -50px;margin-left: -50px">';
     }
     if(calc === 'Friction-Calculator') {
         // document.getElementById('title').innerText = 'Force Calculater';
@@ -151,6 +161,7 @@ function update() {
         document.getElementById('input5header').innerText = '';
         
         document.getElementById('def').style.display = '';
+        document.getElementById('formula').style.display = '';
 		document.getElementById('input1header').style.display = '';
         document.getElementById('input2header').style.display = '';
         document.getElementById('input3header').style.display = 'none';
@@ -169,6 +180,8 @@ function update() {
         document.getElementById('result').innerText = ''
 
 		document.getElementById('def').innerHTML = 'Friction is a type of relative force that acts as a resistance between two bodies that are in contact with each other. In other words when two bodies are in contact with each other there exists a force which opposes their relative motion.';
+
+        document.getElementById('formula').innerHTML = '<img class="XqHOTb IGEbUc" alt="f = \mu N" src="https://www.gstatic.com/education/formulas2/443397389/en/friction_force.svg" role="img" data-atf="0" data-frt="0" style="margin-top: -10px;margin-left: 20px">';
     }
 
 	if(calc === 'Kinetic-Energy-Calculator') {
@@ -186,6 +199,7 @@ function update() {
         document.getElementById('input5header').innerText = '';
         
         document.getElementById('def').style.display = '';
+        document.getElementById('formula').style.display = '';
 		document.getElementById('input1header').style.display = '';
         document.getElementById('input2header').style.display = '';
         document.getElementById('input3header').style.display = 'none';
@@ -204,6 +218,8 @@ function update() {
         document.getElementById('result').innerText = ''
 
 		document.getElementById('def').innerHTML = 'Kinetic energy is the energy associated with the movement of objects. The kinetic energy of an object depends on both its mass and velocity, with its velocity playing a much greater role. When an object is applied net force, that object gains speed and eventually, gains kinetic energy.';
+
+        document.getElementById('formula').innerHTML = '<img class="XqHOTb IGEbUc" alt="f = \mu N" src="https://www.gstatic.com/education/formulas2/443397389/en/friction_force.svg" role="img" data-atf="0" data-frt="0" style="margin-top: -55px;margin-left: 20px">';
     }
 
 	if(calc === 'Torque-Calculator') {
@@ -221,6 +237,7 @@ function update() {
         document.getElementById('input5header').innerText = '';
         
         document.getElementById('def').style.display = '';
+        document.getElementById('formula').style.display = '';
 		document.getElementById('input1header').style.display = '';
         document.getElementById('input2header').style.display = '';
         document.getElementById('input3header').style.display = '';
@@ -239,6 +256,8 @@ function update() {
         document.getElementById('result').innerText = ''
 
 		document.getElementById('def').innerHTML = 'A  force that produces or tends to produce rotation or torsion; also : a measure of the effectiveness of such a force that consists of the product of the force and the perpendicular distance from the line of action of the force to the axis of rotation.';
+
+        document.getElementById('formula').innerHTML = '<img class="XqHOTb IGEbUc" alt="\tau = rF\sin\theta" src="https://www.gstatic.com/education/formulas2/443397389/en/torque.svg" role="img" data-atf="0" data-frt="0">';
     }
 
 	if(calc === 'Inertia-Calculator') {
@@ -256,6 +275,7 @@ function update() {
         document.getElementById('input5header').innerText = '';
         
         document.getElementById('def').style.display = '';
+        document.getElementById('formula').style.display = '';
 		document.getElementById('input1header').style.display = '';
         document.getElementById('input2header').style.display = '';
         document.getElementById('input3header').style.display = 'none';
@@ -274,6 +294,8 @@ function update() {
         document.getElementById('result').innerText = ''
 
 		document.getElementById('def').innerHTML = 'A  property of matter by which it continues in its existing state of rest or uniform motion in a straight line, unless that state is changed by an external force.';
+
+        document.getElementById('formula').innerHTML = '<img class="XqHOTb IGEbUc" alt="I=\frac{L}{\omega}" src="https://www.gstatic.com/education/formulas2/443397389/en/moment_of_inertia.svg" role="img" data-atf="0" data-frt="0" style="margin-top: -55px;margin-left: 20px">';
     }
 
 	if(calc === 'Density-Calculator') {
@@ -291,6 +313,7 @@ function update() {
         document.getElementById('input5header').innerText = '';
         
         document.getElementById('def').style.display = '';
+        document.getElementById('formula').style.display = '';
 		document.getElementById('input1header').style.display = '';
         document.getElementById('input2header').style.display = '';
         document.getElementById('input3header').style.display = 'none';
@@ -309,6 +332,8 @@ function update() {
         document.getElementById('result').innerText = ''
 
 		document.getElementById('def').innerHTML = 'Density is the measurement of how tightly a material is packed together. It is defined as the mass per unit volume.';
+
+        document.getElementById('formula').innerHTML = '<img class="XqHOTb IGEbUc" alt="\rho ={\frac {m}{V}}" src="https://www.gstatic.com/education/formulas2/443397389/en/density.svg" role="img" data-atf="0" data-frt="0" style="margin-top: -70px;margin-left: 20px">"';
     }
 
 	if(calc === 'Work-Done-Calculator') {
@@ -326,6 +351,7 @@ function update() {
         document.getElementById('input5header').innerText = '';
         
         document.getElementById('def').style.display = '';
+        document.getElementById('formula').style.display = '';
 		document.getElementById('input1header').style.display = '';
         document.getElementById('input2header').style.display = '';
         document.getElementById('input3header').style.display = 'none';
@@ -344,6 +370,8 @@ function update() {
         document.getElementById('result').innerText = ''
 
 		document.getElementById('def').innerHTML = 'It is done only when a constant force applied on an object cause the object to move in the same direction as the force applied.\nWork is the product of force and displacement. In physics, a force is said to do work if, when acting, there is a movement of the point of application in the direction of the force.';
+
+        document.getElementById('formula').innerHTML = '<img class="XqHOTb IGEbUc" alt="W=Fs" src="https://www.gstatic.com/education/formulas2/443397389/en/work.svg" role="img" data-atf="0" data-frt="0" style="margin-top: 15px;margin-left: 15px">';
     }
 
 	if(calc === 'Charge-Calculator') {
@@ -361,6 +389,7 @@ function update() {
         document.getElementById('input5header').innerText = '';
         
         document.getElementById('def').style.display = '';
+        document.getElementById('formula').style.display = '';
 		document.getElementById('input1header').style.display = '';
         document.getElementById('input2header').style.display = '';
         document.getElementById('input3header').style.display = 'none';
@@ -379,6 +408,8 @@ function update() {
         document.getElementById('result').innerText = ''
 
 		document.getElementById('def').innerHTML = 'Electric charge is the basic physical property of matter that causes it to experience a force when kept in an electric or magnetic field. An electric charge is associated with an electric field and the moving electric charge generates a magnetic field.';
+
+        document.getElementById('formula').innerHTML = '<img class="XqHOTb IGEbUc" alt="W=Fs" src="https://www.gstatic.com/education/formulas2/443397389/en/work.svg" role="img" data-atf="0" data-frt="0" style="margin-top: -55px;margin-left: 20px">';
     }
 
 	if(calc === 'Potential-Energy-Calculator') {
@@ -396,6 +427,7 @@ function update() {
         document.getElementById('input5header').innerText = '';
         
         document.getElementById('def').style.display = '';
+        document.getElementById('formula').style.display = '';
 		document.getElementById('input1header').style.display = '';
         document.getElementById('input2header').style.display = '';
         document.getElementById('input3header').style.display = 'none';
@@ -414,6 +446,8 @@ function update() {
         document.getElementById('result').innerText = ''
 
 		document.getElementById('def').innerHTML = 'potential energy, stored energy that depends upon the relative position of various parts of a system. A spring has more potential energy when it is compressed or stretched. A steel ball has more potential energy raised above the ground than it has after falling to Earth.';
+
+        document.getElementById('formula').innerHTML = '<<img class="XqHOTb IGEbUc" alt="U=m g h" src="https://www.gstatic.com/education/formulas2/443397389/en/gravitational_energy.svg" role="img" data-atf="0" data-frt="0">';
     }
 }
 
@@ -466,7 +500,7 @@ function calc()
 	if(calc === 'Inertia-Calculator')
     {
         document.getElementById('result').style.display  = '';
-        document.getElementById('result').innerText = n1 / n2 + ' Kg-m²';
+        document.getElementById('result').innerText = n1 / n2 + ' Kg m²';
     }
 
 	if(calc === 'Density-Calculator')
@@ -478,7 +512,7 @@ function calc()
 	if(calc === 'Work-Done-Calculator')
     {
         document.getElementById('result').style.display  = '';
-        document.getElementById('result').innerText = n1 * n2 + ' Kg m²/s²';
+        document.getElementById('result').innerText = n1 * n2 + ' J';
     }
 
 	if(calc === 'Charge-Calculator')
@@ -495,4 +529,12 @@ function calc()
 	
 }
 
+function display_image(src, width, height, alt) {
+    var a = document.createElement("img");
+    a.src = src;
+    a.width = width;
+    a.height = height;
+    a.alt = alt;
+    document.body.appendChild(a);
+}
 
