@@ -250,7 +250,7 @@ function update() {
         document.getElementById('input5').value = '';
 
         document.getElementById('input1header').innerText = 'Angular Momentum (l)';
-        document.getElementById('input2header').innerText = 'Angular Velocity';
+        document.getElementById('input2header').innerText = 'Angular Velocity (w)';
         document.getElementById('input3header').innerText = '';
         document.getElementById('input4header').innerText = '';
         document.getElementById('input5header').innerText = '';
@@ -460,13 +460,13 @@ function calc()
 	if(calc === 'Torque-Calculator')
     {
         document.getElementById('result').style.display  = '';
-        document.getElementById('result').innerText = n1 * n2 * math.sin(n3) + ' N/M';
+        document.getElementById('result').innerText = n1 * n2 * Math.sin(n3) + ' N/m';
     }
 
 	if(calc === 'Inertia-Calculator')
     {
         document.getElementById('result').style.display  = '';
-        document.getElementById('result').innerText = n1 / n2 + ' Kg M²';
+        document.getElementById('result').innerText = n1 / n2 + ' Kg-m²';
     }
 
 	if(calc === 'Density-Calculator')
@@ -478,7 +478,7 @@ function calc()
 	if(calc === 'Work-Done-Calculator')
     {
         document.getElementById('result').style.display  = '';
-        document.getElementById('result').innerText = n1 * n2 + ' Kg M²/S²';
+        document.getElementById('result').innerText = n1 * n2 + ' Kg m²/s²';
     }
 
 	if(calc === 'Charge-Calculator')
